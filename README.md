@@ -27,13 +27,12 @@ This folder contains the Monte Carlo timeseries data for the DW-SSFP & DW-SE inv
 
 This folder contains the code database for the proposed frameworks. All code was generated in house, with the exception of Fourier-based convolution scripts (used in the time-independent framework) (Bruno Luong 2024; [FFT-based convolution](https://www.mathworks.com/matlabcentral/fileexchange/24504-fft-based-convolution), MATLAB Central File Exchange), and colormap scripts (used for generating the power-spectrum representations) (Matteo Courthoud 2021; [centered-colormap-master](https://github.com/matteocourthoud/centered-colormap?tab=readme-ov-file), GitHub).
 
-**Note**
+**Notes**
+
 You may need to compile the Fourier-based convolution script defined in bin/CONVNFFT. To achieve this, please run 'bin/CONVFFT/convnfft_install.m.
 
-**Citation**
-If
+**Copyright**
 
-**Copywrite**
 Copyright, 2024, University of Oxford. All rights reserved
 
 Any questions please contact benjamin.tendler@ndcn.ox.ac.uk
