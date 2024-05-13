@@ -1,2 +1,40 @@
-# SteadyStateDiffusionMicrostructure
+# Investigating tissue microstructure using steady-state diffusion MRI - Software
 This repository contains software to characterise the diffusion-weighted steady-state free precession (DW-SSFP) signal based on the proposed frameworks in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI".
+
+Details are as follows:
+
+**TimeIndependent/Dependent...Example.m**
+
+These scripts provides example implementations of the time independent & dependent framework proposed in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI" using both conventional and oscillating DW-SSFP gradients.
+
+**Figures**
+
+This folder contains the scripts used for synthesising many of the Figures in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI". These scripts can be used to replicate data in the manuscript, or identify different modes of investigation with the proposed frameworks. 
+
+**SupportingInformationFigures**
+
+This folder contains the scripts used for synthesising many of the Supporting Information Figures in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI". These scripts can be used to replicate data in the manuscript, or identify different modes of investigation with the proposed frameworks. 
+
+**AnalyticalModels**
+
+This folder contains the scripts used to estimate the DW-SSFP signal using an analytical model for (1) diffusion gradients of a fixed duration, (2) oscillating diffusion gradients and (3) a diffusion tensor. Analytical models are described in Appendix [1-3] in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI". They are based on "Freed, D.E. et al., Steady-state free precession experiments and exact treatment of diffusion in a uniform gradient, J. Chem. Phys. 115, 4249 (2001)".
+
+**MCOutputs**
+
+This folder contains the Monte Carlo timeseries data for the DW-SSFP & DW-SE investigations displayed in Figure 8 of "Tendler, Investigating tissue microstructure using steady-state diffusion MRI".
+
+**bin**
+
+This folder contains the code database for the proposed frameworks. All code was generated in house, with the exception of Fourier-based convolution scripts (used in the time-independent framework) (Bruno Luong 2024; [FFT-based convolution](https://www.mathworks.com/matlabcentral/fileexchange/24504-fft-based-convolution), MATLAB Central File Exchange), and colormap scripts (used for generating the power-spectrum representations) (Matteo Courthoud 2021; [centered-colormap-master](https://github.com/matteocourthoud/centered-colormap?tab=readme-ov-file), GitHub).
+
+**Note**
+You may need to compile the Fourier-based convolution script defined in bin/CONVNFFT. To achieve this, please run 'bin/CONVFFT/convnfft_install.m.
+
+**Citation**
+If
+
+**Copywrite**
+Copyright, 2024, University of Oxford. All rights reserved
+
+Any questions please contact benjamin.tendler@ndcn.ox.ac.uk
+
