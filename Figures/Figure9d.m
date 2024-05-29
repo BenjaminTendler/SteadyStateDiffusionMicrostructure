@@ -6,7 +6,7 @@ clear all
 [optScanner,optSample,optSSFP,optSE] = ParameterOptionsSNROscillating();
 %%
 %Define b-value associated with single Gradient instance (ms/um2) - Used to calculate relative effective b-value with DW-SSFP only
-bOsc=0.5;
+bOsc=1;
 %%
 %Define Encoding Period (equivalent to gradient duration)
 tauArr=1:40;
