@@ -26,10 +26,13 @@ else
         GwaveBlock(round(delta/TR*nbins+1):end)=0;
         if nOscillations>0
             GwaveBlock=GwaveBlock*0;
-            flip=repmat([1,-1,-1,1],[1,nOscillations]);
             for l=1:4*nOscillations
                 OscRange=(round((delta/TR*nbins)/(4*nOscillations)))*(l-1)+1:(round((delta/TR*nbins)/(4*nOscillations)))*(l);
                 if strcmp(Waveform,'Rect')
+                    flip=repmat([1,1,-1,-1],[1,nOscillations]);
+                    GwaveBlock(OscRange)=GwaveFull(k)*flip(l);
+                elseif strcmp(Waveform,'Rect_Sym')
+                    flip=repmat([1,-1,-1,1],[1,nOscillations]);
                     GwaveBlock(OscRange)=GwaveFull(k)*flip(l);
                 elseif strcmp(Waveform,'Sine')
                     if l==1 || l==4*nOscillations
@@ -38,7 +41,7 @@ else
                         GwaveBlock(OscRange)=sin((OscRange-OscRange(1)+1)/(OscRange(end)-OscRange(1)+1)*pi/2+l*pi/2)*GwaveFull(k);
                     end                  
                 else
-                    print('Undefined Waveform for oscillating gradients. Please set opt.Waveform to Rect (rectangular gradient) or Sine (Sine gradient)');
+                    print('Undefined Waveform for oscillating gradients. Please set opt.Waveform to Rect (conventional rectangular gradient), Rect_Sym (symmetric rectangular gradient) or Sine (Sine gradient)');
                     break;
                 end
             end

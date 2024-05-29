@@ -8,7 +8,7 @@ opt.TR=28;                  % Repetition Time (ms)
 opt.alpha=24;               % Flip angle (o)
 opt.phi=-pi/2;              % RF Phase (radians)
 opt.nOscillations=0;        % Number of oscillations of the diffusion gradient (assumes spoiling independent of gradient)
-opt.Waveform='Sine';        % Type of Oscillating Gradient (if opt.nOscillations>0). Choose from 'Sine' or 'Rect'
+opt.Waveform='Sine';        % Type of Oscillating Gradient (if opt.nOscillations>0). Choose from Rect (conventional rectangular gradient), Rect_Sym (symmetric rectangular gradient) or Sine (Sine gradient)
 %%
 %Sample Properties
 opt.T1=600;                 % T1 (ms)
