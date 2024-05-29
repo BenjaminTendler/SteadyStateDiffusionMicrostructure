@@ -1,5 +1,5 @@
 # Investigating tissue microstructure using steady-state diffusion MRI - Software
-This repository contains software to characterise the diffusion-weighted steady-state free precession (DW-SSFP) signal based on the proposed frameworks in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI".
+This repository contains software to characterise the diffusion-weighted steady-state free precession (DW-SSFP) signal based on the proposed frameworks in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)".
 
 Details are as follows:
 
@@ -9,19 +9,19 @@ These scripts provides example implementations of the time independent & depende
 
 **Figures**
 
-This folder contains the scripts used for synthesising many of the Figures in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI". These scripts can be used to replicate data in the manuscript, or identify different modes of investigation with the proposed frameworks. 
+This folder contains the scripts used for synthesising many of the Figures in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)". These scripts can be used to replicate data in the manuscript, or identify different modes of investigation with the proposed frameworks. 
 
 **SupportingInformationFigures**
 
-This folder contains the scripts used for synthesising many of the Supporting Information Figures in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI". These scripts can be used to replicate data in the manuscript, or identify different modes of investigation with the proposed frameworks. 
+This folder contains the scripts used for synthesising many of the Supporting Information Figures in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)". These scripts can be used to replicate data in the manuscript, or identify different modes of investigation with the proposed frameworks. 
 
 **AnalyticalModels**
 
-This folder contains the scripts used to estimate the DW-SSFP signal using an analytical model for (1) diffusion gradients of a fixed duration, (2) oscillating diffusion gradients and (3) a diffusion tensor. Analytical models are described in Appendix [1-3] in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI". They are based on "Freed, D.E. et al., Steady-state free precession experiments and exact treatment of diffusion in a uniform gradient, J. Chem. Phys. 115, 4249 (2001)".
+This folder contains the scripts used to estimate the DW-SSFP signal using an analytical model for (1) diffusion gradients of a fixed duration, (2) oscillating diffusion gradients and (3) a diffusion tensor. Analytical models are described in Appendix [1-3] in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)". They are based on "Freed et al., Steady-state free precession experiments and exact treatment of diffusion in a uniform gradient, J. Chem. Phys 2001, [10.1063/1.1389859](https://doi.org/10.1063/1.1389859)".
 
 **MCOutputs**
 
-This folder contains the Monte Carlo timeseries data for the DW-SSFP & DW-SE investigations displayed in Figure 8 of "Tendler, Investigating tissue microstructure using steady-state diffusion MRI".
+This folder contains the Monte Carlo timeseries data for the DW-SSFP & DW-SE investigations displayed in Figure 8 of "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)".
 
 **bin**
 
