@@ -11,8 +11,8 @@ S0HigherOrder=0;
 loss=exp(-opt.TR/opt.T1)*cosd(opt.alpha);
 %%
 %Define arrays for of transverse periods
-nTrans=zeros([100,1]);
-nPathways=zeros([100,1]);
+nTrans=zeros([opt.nPeriods*2,1]);
+nPathways=zeros([opt.nPeriods*2,1]);
 %%
 %Estimate S0
 for j=1:length(PathwaySignalFirstOrder)
