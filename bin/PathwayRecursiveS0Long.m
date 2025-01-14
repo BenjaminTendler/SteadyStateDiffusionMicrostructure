@@ -1,8 +1,8 @@
 function [S0,nTrans,nPathways] = PathwayRecursiveS0Long(PathwaySignalFirstOrder,TransFirstOrder,PathwaySignalHigherOrder,TransHigherOrder,GwaveHigherOrder,idxHigherOrder,Precision,loss,nLongPathsInit,PathwayLength,nPeriods)
 %%
 %Define number of transverse periods
-nTrans=zeros([100,1]);
-nPathways=zeros([100,1]);
+nTrans=zeros([nPeriods*2,1]);
+nPathways=zeros([nPeriods*2,1]);
 %%
 %Perform correction to only investigate pathways which correspond to the nPeriods condition
 idxHigherOrdernPeriods=idxHigherOrder((TransFirstOrder+TransHigherOrder(idxHigherOrder))<=2*nPeriods);
