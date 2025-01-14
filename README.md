@@ -17,7 +17,7 @@ This folder contains the scripts used for synthesising many of the Supporting In
 
 **AnalyticalModels**
 
-This folder contains the scripts used to estimate the DW-SSFP signal using an analytical model for (1) diffusion gradients of a fixed duration, (2) oscillating diffusion gradients and (3) a diffusion tensor. Analytical models are described in Appendix [1-3] in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)". They are based on "Freed et al., Steady-state free precession experiments and exact treatment of diffusion in a uniform gradient, J. Chem. Phys 2001, [10.1063/1.1389859](https://doi.org/10.1063/1.1389859)".
+This folder contains the scripts used to estimate the DW-SSFP signal for (1) diffusion gradients of a fixed duration, (2) oscillating diffusion gradients and (3) a diffusion tensor, alongside code to evaluate transverse period approximations of DW-SSFP. Implementations are described in Appendix [1-3] in "Tendler, Investigating tissue microstructure using steady-state diffusion MRI, BioRXiv 2024, [10.1101/2024.05.15.594140](https://doi.org/10.1101/2024.05.15.594140)". They are based on "Freed et al., Steady-state free precession experiments and exact treatment of diffusion in a uniform gradient, J. Chem. Phys 2001, [10.1063/1.1389859](https://doi.org/10.1063/1.1389859)".
 
 **MCOutputs**
 
