@@ -1,3 +1,5 @@
+%%
+%NOTE - x axis in Figure 8c of the manuscript should be radius, not diameter - this has been updated in this script
 clear all
 %%
 %Define Parameters
@@ -63,7 +65,7 @@ hold all;plot(R,abs(S_DWSE./S0_DWSE),"color","#7E2F8E",'LineWidth',6);
 hold all;scatter(R,abs(MC_Cylinder_DWSE(end,:)/8),"SizeData",2000,'Marker','.',"MarkerFaceColor","#7E2F8E","MarkerEdgeColor","#7E2F8E",'Color',"#7E2F8E");
 xlim([0,10])
 ylim([0.4,1])
-xlabel('Diameter (\mum)')
+xlabel('Radius (\mum)')
 ylabel('Diffusion Attenuation (normalised)')
 title('Restricted Diffusion (Cylinder)')
 legend('Time-Dependent framework','Monte Carlo (DW-SSFP)','GPA (DW-SE)','Monte Carlo (DW-SE)','FontSize',14,'Location','SouthWest')
