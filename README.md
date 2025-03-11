@@ -31,6 +31,10 @@ This folder contains the code database for the proposed frameworks. All code was
 
 You may need to compile the Fourier-based convolution script defined in bin/CONVNFFT. To achieve this, please run 'bin/CONVFFT/convnfft_install.m.
 
+**Updates**
+
+- The x-axis in Figure 8c and 8d of the manscript should be labelled 'radius', not 'diameter'. This has been updated in the scripts here. 
+
 **Copyright**
 
 Copyright, 2024, University of Oxford. All rights reserved
