@@ -31,9 +31,10 @@ This folder contains the code database for the proposed frameworks. All code was
 
 You may need to compile the Fourier-based convolution script defined in bin/CONVNFFT. To achieve this, please run 'bin/CONVFFT/convnfft_install.m.
 
-**Updates**
+**Edits**
 
-- The x-axis in Figure 8c and 8d of the manscript should be labelled 'radius', not 'diameter'. This has been updated in the scripts here. 
+- **Typo**: The x-axis in Figure 8c and 8d of the manscript should be labelled 'radius', not 'diameter'. This has been updated in the scripts here.
+- **Typo**: The relaxation exponents in the manuscript should been defined as $e^{-TR/T_{1/2}}$, not $e^{-T_{1/2}/TR}$. This was correct in the original software, and no edits have been made.
 
 **Copyright**
 
